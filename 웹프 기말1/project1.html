@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>
+        기말과제 메인페이지
+    </title>
+    <style>
+        .d1{display:grid; grid-template-rows: 1fr 8fr 1fr; height:100%;}
+        .i1{width: 12%; height: 7%; position: absolute; top:2.5%; left: 6%; border-radius: 25px;}
+        
+
+        .d2:nth-child(1){background: black;}    
+        .d2:nth-child(3){background: black;}
+
+        .d21{display:inline-block; color: white; margin-left: 23%; margin-top: 1.5%; font-size: 25; }
+        .d22{display:inline-block; color: white; font-size: 25; margin-left: 5%; }
+        .d23{display:inline-block; color: white; font-size: 25; margin-left: 5%; }
+        .d24{display:inline-block; color: white; font-size: 17; position: absolute; top:4.5%; right:5%}
+
+        .d21:hover a{color:rgb(238, 101, 10);}
+        .d21:hover~.f1{left:0;}    
+        .d22:hover a{color:rgb(238, 101, 10);}
+        .d22:hover~.f2{left:0}
+        .d23:hover a{color:rgb(238, 101, 10);}
+        .d23:hover~.f3{left:0}
+        .d24:hover a{color:rgb(238, 101, 10);}
+        .f1:hover{left:0;}
+        .f2:hover{left:0}
+        .f3:hover{left:0}
+        .f1{width:99%; height:60%; background-color: black;
+            position: absolute; left:-105%; margin: 0 0 0 0.5%;}
+        .f2{width:99%; height:60%; background-color: black;
+            position: absolute; left:-105%; margin: 0 0 0 0.5%;}  
+        .f3{width:99%; height:60%; background-color: black;
+            position: absolute; left:-105%; margin: 0 0 0 0.5%;}  
+   
+        a{text-decoration: none;}
+        a:link{color:white; }
+        a:visited{color: white;}
+        .span1{margin-top: 80; margin-left:15% ; color:white;
+        font-size: 20;}
+        .span2{font-size: 20;}
+        .span2:nth-child(1){ margin-top: 100; margin-left:15%; color:white; width: 200;}
+        .span2:nth-child(2){ margin-top: 100; margin-left:15% ; color:white; width: 200;}
+        .span2:nth-child(3){ margin-top: 100; margin-left:15% ; color:white; width: 200;}
+        .span1:hover a{color:rgb(238, 101, 10);}
+        .span2:hover a{color:rgb(238, 101, 10);}
+        table{margin-left: 60%;  position: absolute; top:4%; right:8%}
+    </style>
+
+</head>
+<body>
+    <div class=d1>
+        <div class=d2>
+            <div class=d21><a href=#>Linux</a></div>
+            <div class=d22><a href=#>취미</a></div>
+            <div class=d23><a href=#>게시판</a></div>
+           
+
+            <div class=f1>
+                <div class=span1><a href=#>Nginx</a>
+               </div>
+               <div class=span1><a href=project5.html>mariaDB</a>
+               </div>
+               <div class=span1><a href=#>php</a>
+               </div>
+               <div class=span1><a href=#>lemp</a>
+               </div>
+            </div>
+            <div class=f2>
+                <div class=span1><a href="#">게시판</a></div>
+                <div class=span1><a href="project6.html">제작자 소개</a></div>
+                <div class=span1> </div>
+                  
+            </div>
+            <div class=f3>
+                <div class=span2><a href=#>취미1</a></div>
+                <div class=span2><a href=#>취미2</a></div>
+                <div class=span2><a href=#>취미3 </a></div>
+            </div>
+           
+            <a href="project1.html"><img class=i1 src="1-2.gif" ></a>
+        </div>
+        <div class=d2>
+             <img class= i2 src="1-1.jpg" width="100%" height="100%">
+            
+        </div>  
+        <div class=d2>  <h1 style="color: aliceblue;">기말과제 홈페이지 입니다.</h1>
+        </div>
+    </div>
+
+    <script>
+        var n=0;
+        var image=document.getElementsByClassName('i2');
+        setInterval(function()
+        {
+            if(n==5)
+                n=0;
+            if(n==4){
+               image[0].src='1-1.jpg';
+               n++;
+            }
+            else if(n==3){
+               image[0].src='1-1.jpg';
+               n++;
+            }
+            else if(n==2){
+               image[0].src='1-1.jpg';
+               n++;
+            }
+            else if(n==1){
+               image[0].src='1-1.jpg';
+               n++;
+            }
+            else if(n==0){
+               image[0].src='1-1.jpg';
+               n++;
+            }
+        }
+           ,2000);
+    </script>
+   
+
+</body>
+</html>

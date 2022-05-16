@@ -1,0 +1,259 @@
+<html>
+<head>
+    <style>
+        html{background-image: url(rb3.jpg); background-repeat: no-repeat;
+         background-size: 100% 20%; background-position:0 98;}
+        .span1{display: block; margin-top: 10px; font-size: 30; margin-left: 30;
+              width: 180; }
+        .span2{display: block; margin-top: 55px; font-size: 15; margin-left: 30; 
+               width: 180; }
+        .span3{display:block; font-size:22; border: 1px solid gray; border-right: none; width:50; 
+        height:33; float:left; } 
+        .span5{display:block;   width:100; float: left; line-height: 2; }
+        
+              
+
+        .t1 tr:nth-child(1) div{margin-left: 70%;  width: 400;
+        margin-top: -40; }      
+
+        .span4 input[type=text]{width:150; height: 35; outline:none;}      
+              
+        .dw{width:1300; margin: 0 auto;}
+        
+
+
+
+        .d1{ float: left; width:250; margin-top: 400;  }
+        .d11{width: 250; height: 140;  line-height: 4.7; font-size: 30px; color:white;
+        text-align: center; font-weight:  bold; background-color:royalblue;}
+        .d12{width: 250; height: 60; border:1px solid lightgray; line-height: 3.6;
+        padding-left:30px; box-sizing: border-box; border-top: none; font-weight: bold;}
+        .d13{width: 250; height: 60; border:1px solid lightgray; line-height: 3.6;
+            padding-left:30px; box-sizing: border-box; border-top: none; font-weight: bold;}
+        .d14{width: 250; height: 60; border:1px solid lightgray;line-height: 3.6;
+            padding-left:30px; box-sizing: border-box; border-top: none; font-weight: bold;}
+        .d15{width: 250; height: 60; border:1px solid lightgray;line-height: 3.6;
+            padding-left:30px; box-sizing: border-box; border-top: none; font-weight: bold;}
+        .d12:hover{background: lightblue; color:white;}
+        .d13:hover{background: lightblue; color:white}
+        .d14:hover{background: lightblue; color:white}
+        .d15:hover{background: lightblue; color:white}
+        a:hover span{text-decoration:underline;}
+        a:link{color:black; text-decoration: none;}
+        a:visited{color:black; text-decoration: none;}
+       
+
+        .t1{float:left; width: 1000; height: 1000; margin-top: 400;
+            margin-left: 50; border-collapse: collapse;}
+        .t3{float:left; width: 1000; height: 1000; margin-top: 400; 
+            margin-left: 50; border-collapse: collapse; display:none;}
+        .t4{float:left; width: 1000; height: 1000; margin-top: 400; 
+            margin-left: 50; border-collapse: collapse; display:none;}
+
+        .td1{border-bottom: 1px solid black; height: 140px;} 
+        .t1 tr:nth-child(3) td{height: 80;}
+        .t1 tr:nth-child(4) td{height: 80;}
+        .t1 tr:nth-child(3) a:nth-child(1) div{width:30;height: 30; background: skyblue; color: white;
+              margin-left: 45%; text-align: center;line-height: 2; position: relative; }
+        .t1 tr:nth-child(3) a:nth-child(2) div{width:30;height: 30; background: skyblue;
+             margin-left: 50%; text-align: center;line-height: 2; margin-top: -30; position: relative;}
+        .t1 tr:nth-child(3) a:nth-child(3) div{width:30;height: 30; background: skyblue;
+            margin-left: 55%; text-align: center; line-height: 2; margin-top: -30; position: relative;}
+
+         
+
+        .t1 tr:nth-child(3) a:nth-child(2) div:hover{color: white;  }
+        .t1 tr:nth-child(3) a:nth-child(3) div:hover{color: white; }
+       
+        .t1 tr:nth-child(2) table{width: 996; height: 700; margin:0; padding: 0;}
+        .t3 table{width:996; height: 700; margin: 0; padding:0;}
+        .t4 table{width:996; height: 700; margin: 0; padding:0;}
+        
+        .t1 tr:nth-child(2) table tr:nth-child(1) td:nth-child(1){width:8%;}
+        .t1 tr:nth-child(2) table tr:nth-child(1) td:nth-child(2){width:50%}
+        .t1 tr:nth-child(2) table tr:nth-child(1) td:nth-child(3){width:12%;}
+        .t1 tr:nth-child(2) table tr:nth-child(1) td:nth-child(4){width:15%;}
+        .t1 tr:nth-child(2) table tr:nth-child(1) td:nth-child(5){width:15%;}
+        .t1 tr:nth-child(2) table tr:nth-child(7) td{padding:12 0}
+        .t1 tr:nth-child(2) table tr:nth-child(8) td{padding:12 0}
+        .t2{border-collapse: collapse;}
+
+        .t2 tr:nth-child(1){background: rgb(179, 226, 243); text-align: center;}
+        .t2 tr:nth-child(2) {border-bottom :1px solid black}
+        .t2 tr:nth-child(2) td{border-top: 1px solid black; text-align: center;}
+        .t2 tr:nth-child(2) td:nth-child(2){text-align: left; padding-left: 50;}
+        .t2 tr:nth-child(3) {border-bottom :1px solid black}
+        .t2 tr:nth-child(3) td{text-align: center;}
+        .t2 tr:nth-child(3) td:nth-child(2){text-align: left; padding-left: 50;}
+        .t2 tr:nth-child(4) {border-bottom :1px solid black}
+        .t2 tr:nth-child(4) td{text-align: center;}
+        .t2 tr:nth-child(4) td:nth-child(2){text-align: left; padding-left: 50;}
+        .t2 tr:nth-child(5) {border-bottom :1px solid black}
+        .t2 tr:nth-child(5) td{text-align: center;}
+        .t2 tr:nth-child(5) td:nth-child(2){text-align: left; padding-left: 50;}
+        .t2 tr:nth-child(6) {border-bottom :1px solid black}
+        .t2 tr:nth-child(6) td{text-align: center;}
+        .t2 tr:nth-child(6) td:nth-child(2){text-align: left; padding-left: 50;}
+        .a1{user-select: all;}
+        
+        
+        .t4 th{border:1px solid black}
+
+
+        .i1{width: 15%; height: 7%; position: absolute; top:13; left: 10%; border-radius: 25px;}
+        .thth{vertical-align: top; text-align: left;}
+    </style>
+</head>
+<body>
+    <div class=dw>
+        <a href="project1.html"><img class= i1 src="1-2.gif" ></a>
+    <div class=d1>
+        <div class=d11>바이러스</div>
+        <a href=#1><div class=d12>코로나</div></a>
+        <a href=#2><div class=d13>일본뇌염</div></a>
+        <a href=#3><div class=d14>매르스</div></a>
+        <a href=#4><div class=d15>사스</div></a>
+    </div>
+
+    <table class=t1>
+        <tr>
+            <td class= td1 colspan="5"><span class=span1>COVID-19</span>
+                <span class=span2>총 3건의 자료가 있습니다</span>
+                
+                <div>
+                    <a href=# class=a1><span class=span5>자료 올리기</span></a>
+                    <span class=span3>제목</span>
+                    <span class=span4><input type=text  ></span>
+            </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <div class=d2>
+                <table class=t2>
+                    <tr>
+                        <td>번호</td><td>제목</td><td>작성자</td><td>등록일</td><td>수정일</td>
+                    </tr>
+                    <tr>
+                        <td>1</td><td><a class=a2 href=#341><span>코로나 RNA</span></a></td><td>홍길동</td><td>2020-06-01</td><td>2020-06-01</td>
+                    </tr>
+                    <tr>
+                        <td>2</td><td><span>코로나 감염경로</span></td><td>심현수</td><td>2020-06-01</td><td>2020-06-01</td>
+                    </tr>
+                    <tr>
+                        <td>3</td><td>코로나 돌연변이</td><td>이종민</td><td>2020-06-01</td><td>2020-06-01</td>
+                    </tr>
+                    <tr>
+                        <td>4</td><td>코로나 확진추세</td><td>김매모</td><td>2020-06-01</td><td>2020-06-01</td>
+                    </tr>
+                    <tr>
+                        <td>5</td><td>확진자 동선</td><td>홍길동</td><td>2020-06-01</td><td>2020-06-01</td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                </table>
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5"><a href=#><div>1</div></a><a href=#><div>2</div></a><a href=#><div>3</div></a></td>
+        </tr>
+       
+        <tr>
+            <td colspan="5">연락처 정보공개 개인정보처리방침</td>
+        </tr>
+    </table>
+    <table class=t3>
+        <tr>
+            <td>
+                <form method="get" action="sample.php">
+                
+                    <table>
+                        <caption><h1>자료 올리기</h1></caption>
+                        <tr>
+                            <td>작성자</td><td><input type=text size=20 name=nam style="width:85%"
+                                required autocomplete="on"  autofocus></td><td>암호</td><td>
+                                <input type="password" size=20 style="width:100%" required autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td>제목</td><td colspan=3><input type=text style="width:100%"></td>
+                        </tr>
+                        <tr>
+                            <td>파일</td><td><input type="file" ></td><td>형식</td><td><select
+                                style="width:35%">
+                                <option>PPT</option><option>HWP</option><option>HTML</option><option>기타</option>
+                            </select></td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid black;">
+                            <td>내용</td><td colspan=3><textarea cols=70 rows=5 style="width:100%; height: 100%;"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td><th style="text-align: right;"><input type="submit" value="올리기"
+                             style="background: lightgray; border:1px solid black; width:30%">
+                            <input type="reset" value="지우기" style=" background: lightgray;
+                                 border:1px solid black; width:30%"></th>
+                        </tr>
+                
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <table class=t4>
+        <tr>
+            <th style=" height: 100; width: 100; background: lightblue;">글제목</th><th style="width: 400;">코로나의 DNA</th>
+            <th style="width: 100; background: lightblue;">작성자</th><th style="width: 400;">홍길동</a></th>
+        </tr>
+        <tr>
+            <th style="height: 100;  background: lightblue;">등록일</th><th>2020.07.01</th><th style=" background: lightblue;" >자료 형식</th><th>hwp</th>
+        </tr>
+        <tr>
+            <th style="height: 700; background: lightblue;">글내용</th><th  class=thth colspan=3>바이러스는 핵산에 따라 DNA바이러스와 RNA바이러스로 나뉘는데 
+                DNA바이러스는 2중나선구조로 염기에 순서와 짝이 정해져있어 손상에 대해 복구가 빠른반면 RNA는 한가닥으로 구성되어 염기서열에 손상을 입었을 경우 
+                원래대로 돌이킬 수 있는 능력이 DNA에 비해 떨어집니다.<br>
+                그리고 이러한 특성에 의해 변이가 쉽게 일어나고 코로나19가 RNA바이러스를 핵산으로 가지기 때문에 계속해서 변이가 된다고 할 수 있습니다.<br>
+                코로나19는 보통 입자가 큰 비말을 통해 감염이 되는데 상기도 또는 폐의 세포조직에 침투해 감염을 일으키고 심할 경우 폐렴증상을 동반합니다.<br>
+              감염을 일으키는 방식은 바이러스의 표면은 스파이크 단백질이 자리잡고있고 숙주의 세포막에 있는 수용체와 결합해 세포안으로 침투해 감염을 시킵니다. <br>
+              열쇠와 열쇠구멍의 관계라고 볼 수 있는데 세포안으로 들어가면 코로나19는 RNA를 복제하기 시작하고 세포의 대사과정에 전적으로 의존하며 바이러스 생산에 필요한 단백질을 생산합니다. <br>
+              그리고 이와 결합해 자식바이러스를 만들고 세포밖으로 나가 다른세포를 감염시키는 방식으로 바이러스가 확산됩니다.<br>
+              보통의 바이러스는 전파될수록 약해지고 옮겨갈 수 있는 숙주는 제한적이지만 이 코로나19는 스필오버임팩션으로 종간의 장벽을 넘어 다른 종의 숙주에게로 전파가되는 바이러스입니다.<br>
+               이러한 코로나19를 검사하는 방법은 핵산을 분리하고 프라이머라는 요소가 들어있는 진단시약을 묻히고 프라이머는 코로나19가 가진 특정유전자와 결합합니다 <br>
+               이 때 RdRP,E,N 이라는 코로나19의 특정유전자를 유전자 증폭기를 이용해 검사에 충분한양만큼 늘려줍니다 여기서 증폭횟수에 따른 유전자양이 기준값에 충족되면 양성이되고 충족하지못하면 음성판정을 받게 되는 것 입니다.<br>
+              바이러스의 특성등에 대해 더 자세히 알 수 있게 되었고 코로나19가 어떤 바이러스이고 어떤 특징을 갖는지 알 수 있었습니다.</th>
+        </tr>
+    </table>
+
+
+
+    </div>
+    <script>
+        var t1=document.getElementsByClassName('t1');
+        var t3=document.getElementsByClassName('t3');
+        var t4=document.getElementsByClassName('t4');
+        var a1=document.getElementsByClassName('a1');
+        var a2=document.getElementsByClassName('a2');
+        a1[0].addEventListener("click",change1)
+        a2[0].addEventListener("click",change2)
+        function change1(){
+            t1[0].style.display="none";
+            t3[0].style.display="inline";
+            t4[0].style.display="none"
+        }
+        function change2(){
+            t1[0].style.display="none";
+            t3[0].style.display="none";
+            t4[0].style.display="inline";
+        }
+        
+
+
+    </script>
+    
+    
+</body>
+</html>
