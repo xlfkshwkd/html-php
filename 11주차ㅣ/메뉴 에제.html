@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+            ul,li{list-style: none;margin:0px;padding: 0px;}
+            header{background-color: yellow;width: 700px;height:100px;}
+            nav{background-color: skyblue;width: 500px;height: 800px;
+            float: left;}
+            article{background-color: limegreen;width: 500px;height: 800px;
+            float: left;}
+
+            .title{padding: 20px;float: left;}
+            .hmenu{padding: 10px;float:right;}
+            .hmenu>li{display: inline-block;width: 80px; height: 80px;
+            background-color: red;color: white;font-size: 2rem;
+            text-align: center;line-height: 80px;border-radius:50%;}
+
+            .menu{clear: both;}
+            .menu>li{margin: auto;width: 100px;height: 50px;border: 2px solid white;
+            background-color: gray;text-align: center;line-height: 50px;}
+            .menu>li:hover{background-color: #555;color:white;}
+            #fix{background-color: black;color: white;
+            position:fixed;left:56px;top:330px;}
+            .black{clear: both;  margin: auto;  background-color: black;width: 60%;padding: 20px;}
+            .orange{margin: auto; background-color: orange;width: 80%;
+                    text-align: center;padding: 20px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class=title>Header</div>
+            <ul class=hmenu>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </header>
+        <nav>
+            <div class="title">Menu</div>
+            <ul class=menu>
+                <li>menu1</li>
+                <li>menu2</li>
+                <li>menu3</li>
+                <li id=fix> 고정 메뉴</li>
+            </ul>
+        </nav>
+        <article>
+            <div class=black>
+                <div class=orange>
+                    <h1>hello world</h1>
+                    <h1>가운데 정렬</h1>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>
