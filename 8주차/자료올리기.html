@@ -1,0 +1,40 @@
+<html>
+<head><title>표작성 실습</title>
+    <style>
+        td{align-content:left;}
+    </style>
+</head>
+<body>
+   <table> 
+       <tr><td style=font-size:20px align="center" colspan="4"><b>자료올리기</b></td></tr>
+       <tr>
+       <th>이름</th><td><input type=text size=30 name=n2></td>
+       <th>암호</th><td><input type= password size=20 name=pass
+        autocomplete="off" required></td>
+       </tr>
+       <tr>
+           <th>제목</th><td colspan="3"><input type=text size=60 name=N></td>
+       </tr>
+       <tr>
+           <th>파일</th><th><input type=file></th><th>형식</th><th><input type=text list="plang">
+            <datalist id="plang">
+                <option value="PPT"></option>
+                <option value="HWP"></option>
+                <option value="HTML"></option>
+                <option value="기타"></option>
+                </datalist></th>
+       </tr>
+       <tr>
+        <th colspan="4"><textarea name="memo" rows=5 cols="30" style="width:100%;"  Maxlength=100>
+            여기에 글을 적어라...
+        </textarea></th>
+       </tr>
+       <tr>
+           <th></th><th></th><th></th>
+           <th><input type= submit value="보내기 ">
+            <input type= reset value="지우기 "></th>
+       </tr>
+   </table>
+
+</body>
+</html>

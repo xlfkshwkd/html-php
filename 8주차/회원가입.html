@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>회원가입 화면</title>
+        <style>
+            td{float: right;}
+        </style>
+    </head>
+<body>
+    <form method=get action=sample.php>
+       회원가입시 입력된정보는 불건전한 목적으로 사용하지 않습니다.<br><hr>
+        <table>
+           <tr>
+               <td>아이디</td><th><input type=text size=20 name=N autocomplete="on" 
+               required autofocus ></th><th><input type=button value="중복확인" ></th><th></th><th></th><th></th>
+            </tr>
+            <tr> 
+              <td>비밀번호</td> <th><input type=password size=20 name=pass
+               autocomplete="off" required >
+              </th><th> 확인</th><th> <input type=password size=20 name=pass
+               autocomplete="off" required>
+             </th><th></th><th></th>
+            </tr>
+            <tr>
+             <td>이름</td><th><input type=text size=20 name=n2></th><th></th><th></th><th></th><th></th>
+            </tr>
+            
+           <tr> 
+            <td>생년월일</td><th><input type="date" min="1900-01-01" max="2020-12-31"></th>
+            <th>성별</th><th> <input type=radio name=gen value="m" checked>남자</th><th>
+            <input type=radio name=gen value="F">여자</th><th></th><tr>
+     
+        <tr><td> E-mail</td><th><input type="email" size =20></th><th>
+        </th><th></th><th></th><th><input type=checkbox name=os[] value="w10">공개</th>
+        </tr>
+
+       <tr> 
+        <td>전화번호</td><th><input type="tel" size =20
+        placeholder ="000-0000-0000" name =tel
+        pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"></th>
+        <th></th><th></th><th></th><th><input type=checkbox name=so[] value="w2">공개</th>
+        </tr>
+
+        <tr>
+        <td>개인정보 공개</td><th><input type=text list="plang">
+        <datalist id="plang">
+            <option value="정보 공개"></option>
+            <option value="미 공개"></option>
+            <option value="부분 공개"></option>
+            </datalist></th><th></th><th></th><th></th><th></th>
+        </tr>
+       <tr>
+        <th></th>
+        <th></th><th></th><th></th><th><input type= "submit" value="가입신청 "></th><th><input type= "reset" value="지우기 "></th>
+       </tr> 
+       </table>
+       <hr>
+    </form>
+    
+</body>
+</html>
