@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>
+        기말과제 회원가입
+    </title>
+    <Style>
+       ::placeholder{color:white;}
+       
+       html{ background-image: url(black1xnaud.jpg);
+       background-repeat: no-repeat; background-size: 100% 100%;}
+      
+       table{width:700;  border-collapse: collapse; margin:50 auto; }
+       tr:nth-child(even) td{border-bottom: 1px solid lightblue; }
+       tr:nth-child(odd) td{padding:10 0 0 0px;}
+       tr:nth-child(odd){ height: 40; padding-left: 10;}
+       td{color:lightblue;}
+       tr:nth-child(even){ height: 50;}
+       tr:nth-child(15){height: 100;}
+
+       h1{margin-left: 45%;   margin-top: 50; color: lightblue;}
+
+       input[type=submit]{width:85%; height:50; background:lightblue; color:white;
+          text-align: center; margin-left: 7.5%; border:none; border-radius: 12px;
+          font-weight: 900; font-size: 18;  outline: none;}
+       input[type=text],input[type=password]{height:40; border-radius: 12px; border:none;
+         background: transparent; outline: none;color:white; width:100% }
+
+       input[type=button]{ border:1px solid transparent; height: 40;
+       border-radius: 12px; background: lightblue; color:white;  outline: none;}
+
+       .i1{width: 15%; height: 10%; position: absolute; top:3%; left: 10%; border-radius: 25px;}
+
+    </Style>
+</head>
+<body>
+    <a href="black.html"><img class= i1 src="log.jpg" ></a>
+    <h1>회원가입</h1>
+    <form method=get action="black2-1.php">
+        <table>
+            <tr>
+                <td colspan="2">아이디</td>
+            </tr>
+            <tr>
+                <td><input type=text size=60></td><td><input type=button value=중복확인></td>
+            </tr>
+            <tr>
+                <td colspan="2">비밀번호</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=password size=60 ></td>
+            </tr>
+            <tr>
+                <td colspan="2">비밀번호 확인</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=password size=60 ></td>
+            </tr>
+            <tr>
+                <td colspan="2">이름</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=text size=60 name=name ></td>
+            </tr>
+            <tr>
+                <td colspan="2">나이</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=text size=60></td>
+            </tr>
+            <tr>
+                <td colspan="2">번호</td>
+            </tr>
+            <tr>
+                <td><input type=text size=60 
+                    placeholder ="000-0000-0000" name =tel
+                    pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"></td><td><input type=button value="인증번호 요청"></th></td>
+            </tr>
+            <tr>
+                <td colspan="2">이메일 주소</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=text size=60 ></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="회원가입"></td>
+            </tr>
+           
+        
+        </table>
+   
+      </form>
+
+    
+</body>
+</html>
