@@ -1,0 +1,31 @@
+::placeholder{color:black}
+       
+body{
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+   
+}
+input[type=submit] {width:450; height:70; background-color: black; border:none;
+ color:white; font-size: 22; border-radius: 25px;}
+input[type=text],input[type=password] {width:450; height:60; color:black;
+margin: -15 25 -15 25; /*solid black*/; padding:10px;
+outline: none;font-size: 20px; background: white;}
+
+
+
+a{color: lightblue;}
+
+table{width:500;height: 400; margin: 60 auto;}
+
+.td2{ padding-left: 25;} 
+.td2 span:nth-child(1){margin-left: 0px;}
+.td2 span:nth-child(2){margin-left: 90px;}
+.td2 span:nth-child(3){margin-left: 90px;}
+
+span{color: lightblue;  text-decoration:underline;
+    display: inline; position: relative; top:-30}
+h1{margin-left: 41%; margin-top:150; color: lightblue; font-size: 30;} 
+.i1{width: 17%; height: 10%; position: absolute; top:3%; left: 10%; border-radius: 20px;}
+
+.logo2{width:455; height:100}

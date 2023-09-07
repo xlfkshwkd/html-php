@@ -1,0 +1,30 @@
+
+       ::placeholder{color:white;}
+       
+       body{
+        background-repeat: no-repeat;
+        background-position:top center;
+        background-size: cover;
+       
+    }
+       table{width:700;  border-collapse: collapse; margin:50 auto; }
+       tr:nth-child(even) td{border-bottom: 1px solid lightblue; }
+       tr:nth-child(odd) td{padding:10 0 0 0px;}
+       tr:nth-child(odd){ height: 40; padding-left: 10;}
+       td{color:lightblue;}
+       tr:nth-child(even){ height: 50;}
+       tr:nth-child(15){height: 100;}
+
+       h1{margin-left: 45%;   margin-top: 50; color: lightblue;}
+
+       input[type=submit]{width:85%; height:50; background:lightblue; color:white;
+          text-align: center; margin-left: 7.5%; border:none; border-radius: 12px;
+          font-weight: 900; font-size: 18;  outline: none;}
+       input[type=text],input[type=password]{height:40; border-radius: 12px; border:none;
+         background: transparent; outline: none;color:white; width:100% }
+
+       input[type=button]{ border:1px solid transparent; height: 40;
+       border-radius: 12px; background: lightblue; color:white;  outline: none;}
+
+       .i1{width: 15%; height: 10%; position: absolute; top:3%; left: 10%; border-radius: 25px;}
+

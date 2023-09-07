@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+}
+
+.d1{display:grid; grid-template-rows: 1fr 8fr 1fr; height:100%;}
+
+.i1{width: 12%; height: 7%; position: absolute; top:2.5%; left: 6%; border-radius: 10px;}
+
+.i2{position: absolute; top:13%; left: 28%; width:650 ;height :450}
+
+.i3{position: absolute; top:15%; left: 78%;width: 300 ;height:150}
+.i4{position: absolute; top:37%; left: 78%;width: 300; height:150}
+.i5{position: absolute; top:59%; left: 78%;width: 300 ;height:150}
+.i6{position: absolute; top:81%; left: 78%;width: 300; height:150}
+
+.d2:nth-child(1){background: black;} 
+
+.d21{display:inline-block; color: white; margin-left: 23%; margin-top: 1.5%; font-size: 25; }
+.d22{display:inline-block; color: white; font-size: 25; margin-left: 5%; }
+.d23{display:inline-block; color: white; font-size: 25; margin-left: 5%; }
+.d24{display:inline-block; color: white; font-size: 17; position: absolute; top:4.5%; right:5%}
+.d25{display:inline-block; color: white; font-size: 17; position: absolute; top:4.5%; right:11%}
+
+.d21:hover a{color:rgb(238, 101, 10);}
+.d22:hover a{color:rgb(238, 101, 10);}
+.d23:hover a{color:rgb(238, 101, 10);}
+.d24:hover a{color:rgb(238, 101, 10);}
+.d25:hover a{color:rgb(238, 101, 10);}
+
+a{text-decoration: none;}
+a:link{color:white; }
+a:visited{color: white;}
+
+
