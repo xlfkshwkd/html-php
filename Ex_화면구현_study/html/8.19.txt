@@ -1,0 +1,90 @@
+BOX -SIZING 너비와 높이의 기준이 내용물 기준 
+position 
+static 절대 위치 
+상대 위치 top bottom left right  
+relative :현재 요소의 좌측 상단 좌효가 이동의 기준 
+
+absoulte 문서의 좌측 상간이 이동의 기준 
+        +상위요소의 상대위치 속성이 있다.
+        relative absoulte fixed 되어있으면 상위요소의 좌측 상단이 기준 
+
+fixed 
+층위에 숫자가 클수록 앞쪽에 위치하고 숫자가 작을수록 뒤에 위치한다. 
+
+
+border 두깨
+style soiled - dashed(-----) dotted 점선
+border-color 색상 
+left 왼쪽 경계선
+right 오른쪽
+top 상당
+button 하단 
+
+float 좌에서 우로 떠다니듯이 배치
+right 우에서 좌로 떠다니듯이 배치
+
+
+배치속성을 제거 clear :left right both 둘다 
+공간이 있는 요소만 제거 가능 
+블록과 인라인 .
+인라인은 공간이 없음
+block 만 제거 가능 
+inline-block일때만 
+
+media query
+
+@media 장비종류 (all-모든 장비 )and (max -width 기준너비 ){기준 너비까지 적용될 CSS}
+
+@media 장비 종류 (all-모든 장비 )and(min-width 기준 너비 ){기준 너비 부터 적용될 CSS}
+
+
+    background-repeat: repeat-x;
+       background-repeat: repeat-y;
+    
+background-position: left right center/ top bottom center
+
+background :색상  url(이미지) 둘중하나는 필수 반복 속성 위치 
+
+overflow
+내용이 영역에 비해서 많은 경우 처리하는 속성 
+-visible 기본값 넘치더라도 보임
+-hidden  넘치는 영역을 감춘다 
+-scroll 스크롤바 
+-Auto 내용이 넘칠때만 스크롤이 자동 생성 
+-transition 전환효과 진행 시간
+-transition -property
+
+-transition -timeing-function 애니매이션 효과 종류 (esce.esce)
+축약
+transition{속성 진행시간(duration) 애니매이션의 종류 대기시간(delay)}
+속성,진행시간은 필수 항목 
+display:flex 이속성이 지정된 요소의 하위요소 배치
+
+
+flex-direction 
+:row 좌-우로 배치
+ row :reverse 우 ->좌 
+ 
+colurm 위-> 아래 
+courm -reverse 아래 -> 위
+
+3.align-items:
+    stretch : 기본값
+    flex-start: 상단 정렬
+    flex-end : 하단 정렬 
+    center : 가운데 
+    
+    4.공백에 대한 배분 
+    space -between
+    space- around :요소의 전후에 공백 
+    spcae- evenly 요소사이의 동일한 공백 
+
+
+wrap 줄개행 없 no가 기본 
+하지만 바꾼다 도르 
+
+
+5.flex -wrap 
+ flex-grow 자식요소에 설정 
+ 공백에 대한 비율 
+ 

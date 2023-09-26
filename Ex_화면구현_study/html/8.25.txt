@@ -1,0 +1,118 @@
+변수 레코드 
+외부 변수 레코드 참조 :
+outer EC 변수 레코드 주소
+실행 함수 존재 
+
+변수 레코드 
+브라우저 창 
+윈도우 생성자가있음
+윈도우 객체가 할당 
+window =5 
+하위속성으로 추가되있다
+외부 변수 레코드 
+유효범위 체인
+
+글로벌 EC 레코드 주소 
+
+var 함수안에 지역
+지역 변수 전역 변수
+함수를 믿에서도 다올라와서 어디에 써도 상관이 없음 
+
+.this 호출한 객체의 주소값 
+window 객체의 주소값 
+var 함수의 지역 범위
+전역변수와 지역변수 명이 동일하면 지역 변수가 우선 
+var i =100;
+
+let : 변수 var 과 유사하게 사용가능
+const 상수 -값을 변경 X 
+지역 범위{} 
+
+수정은 된다 하지만 추가는 안됌 
+함수 리터널로 선언 
+const add= function(A,D){}
+
+VAR ADD =function(num1,num2)
+
+모든변수를 const 로 정의 필요할때만 let 사용 
+동일한 변수명으로 선언하면 기존 값이 대체 
+중복 선언 X 
+
+(function (매개변수,...){
+    //실행코드 ...
+})
+
+콘솔 내부에는 항상 this 존재  
+
+let total =0;
+for(let i=0 ;arguments.legnth;i++)
+
+참고) 
+전개 연산자 (...)
+const nums =[10,20];
+
+깊은 복사 : 
+생성자 function add 
+
+생성자 
+함수 :1급 객체 (함수)
+1) 함수는 값 
+-매개변수,반환값 
+2)생성자 
+다른객체를 생성하는 함수 
+
+자바스크립트의 객체 상속 
+객체간의 프로토타입 체인 연결 관계-> 상속 
+
+obj 오브젝트 
+    prototype 프로토 타입 체인 
+    obj2
+
+상속 파기 연결 가능 
+연결하면 상속이 발생함 
+
+function 정의하면 상속이 발생 : 프로토타입 객체의 상속이 발생함
+생성자 함수를 new 함수 ();
+과정중에 상속의 과정이 발생 
+
+
+
+1.생성자 함수에있는 프로토 타입 객체의 프로토타입 체인 (__proto__)의 연결 상속 
+모든함수는 연결되어있다. 어플라이랑 콜이라는 함수는 매우 중요 
+function
+
+call 은 this 의 범위를 바꿀수 있는 매개변수 
+생성 함수 호출시 this를 현재 객체로 변경하고 실행 
+//function.prototype.call(.),function.prototype
+const p1={};
+person.call(p1);
+
+상속 체인 연결 - this 변경해서 - 값의초기화;
+person.prototype.construction.call(p1);
+p1;
+call -> 가저와서 this 변경 
+생성자 함수에 있는 프로토타입  함수객체의 참조 변수 
+fruits ;
+Array 
+const p1 =new person()
+
+
+this.name =name ;
+person.prototype.showinfo =function(){
+    console.log(this. this)
+}
+
+인스턴스 오브 콘솔 .dir 
+
+
+
+
+
+
+
+
+
+
+
+
+

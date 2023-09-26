@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+
+<script src="js/commod.js"></script>
+</head>
+<body>
+    <!--
+    <script>
+        alert("메세지");
+    </script>
+    <button type="button" onclick="alert('메시지')">클릭</button>
+
+
+    console.log 값의 출력 기능 
+    //최초로 값을저장 초기화
+    var =10; 선언과 동시에 초기화
+    함수 끌어 올림 
+
+    typeof - 자료형을 체크해보는 연산자 
+
+    null
+     값이 없음(값)
+     undefined 값이 정해지지않는 상태
+     typeof str;
+
+     +문자열을 더함 
+      = 대입연산자
+      < ?
+      연산의 결과가 논리 값 ture 거짓false 
+      var =num1=10;
+
+      동일성(===) 동등성(==) 
+      같지않다(!=,!==) 판별식에서 주로 사용
+      특정 조건 에서 반복
+      비교연산자
+      AND  연산 OR 연산 NOT 연산 (부정 연산)
+
+      AND연산 & 교집합과 비슷
+      && ture and ture -> ture;
+      
+      ||
+      false || ture ->true;
+      //num가 10보다 크고 100보다 작다 
+      var num=20;
+      var result1=num>10;
+
+
+    && 논리값만 가능 참거짓 판별 그냥 생략갈김
+
+    연산자의 우선순위 비교연산>논리연산 
+    false  로 인식하는 값
+    -0,undefined,null
+    -false 이외의 값은 전부 트루 
+    논리 연산의 값 : 최종 연산의 값 
+
+    ||: 기본값
+    && :간단한 조건식을 대체
+    -!:참
+    증가 감소 연산자++
+
+    4)비교연산자 
+    ==
+    ===
+    5)논리연산자
+    AND &&
+    OR || 
+    NOT :!
+
+    false 로 인식하는겂 
+    0 null undefin
+    "  " -- 참임 공백도 
+    "" 이게 거짓 
+
+    (대입 연산)<
+    제어 조건문 
+    참거짓 판별 
+    조건식을 판별 
+    IF (조건식){
+        //논리나 비교연산자가 주로 ..
+        //조건식이 참일때 실행되는 코드 ..
+    }
+
+
+    if(조건식 1){
+    //참일때 
+    }
+    else if {
+    //조건식 1이 거짓일때만 
+    }
+    else {
+    }
+    ... 값을 일치여부를 다르게 선택할떄 체크 선택 
+    switch (키워드 )
+    {
+        case 값 1 :
+        //키워드가 값 1과 일치하는경우 실행되는 코드 
+        case 값 2 :
+         //키워드가 값 2와 일치하는경우 실행되는 코드 
+         case 값 3:
+         //키워드가 값 3와 일치하는 경우 실행되는 코드 
+         var rank =4;
+         switch(rank){
+            case 1:
+            console.log("금매달");
+            break;
+            case 2:
+             console.log("은매달");
+            case 3:
+             console.log("동매달");
+             break;
+             default:
+              console.log("낙제 ");
+         }
+
+         반복문 
+         while (조건식){
+            //조건식이 참일때 반복되는 코드 
+         }
+         for 
+         do while 은 한번은 실행됨 
+         while num<=100
+
+         var num =1; 초기값 필수 
+         num++ 증감 식 
+         조건식 (num<=100)
+         for 횟수가 정해진 반복문에 특화 
+         for 초기화식 ;조건식 '증감식'
+         횟수 순서 인덱스 0부터시작하는순서
+         변수명 관례 초기화식 변수명을 i부터사용
+
+         반복중단 break
+         반복 건너뛰기  contine
+         반복문안에 반복문
+         while - while for안에 for while 
+
+
+        템플릿 리터럴 `....` 역따음표
+        
+
+        var str =`${num} +${num2} =${num+ num2}`;
+        undefined
+
+        객체 리터럴 
+        객체는 이름과 값을 한쌍으로 묶은 데이터를 여러개로 모은것 
+
+var person ={
+          name:"아름이",
+        age :40
+    };
+person.name;
+
+person['name'];
+
+var key ="name";
+
+[]속성명이 숫자 일때
+
+
+person.name="심현수";
+하면 이제 수정됨 
+없는 속성에 대입 
+추가됨
+
+delete 연산자로 삭제 
+delete 변수명 속성명 ;
+
+delete 
+
+
+in 연산자  속성 속성명 
+
+'name' in person;
+ 채크함 
+
+메서드 
+기본형 값 : 숫자 ,문자 ,논리값 ,undefined ,null -> 원시타입
+객체 값:원시타입 값 +객체
+
+메서드 객체
+
+// 객체는 참조 타입 
+주소 값을 참조 
+
+person - >  참조 변수임 
+주소값으로 이동하기위한 키같은거임 
+
+함수 - > 
+
+  key=random()%3
+    if(key==0)
+    {
+        이김
+    }
+    else if (key==1)
+    {
+        짐
+    }
+    else{
+        비김
+    }
+    값전달 -> 매개 변수 매개체 - 말라리아 모기 
+    
+    얍 내부에서 가저가~
+    리턴
+    반환
+    retrun 
+
+    var y =calc(3);
+
+    함수 객체 
+    -> 실행 가능한 객체 번역 
+    익스큐션 컨텍스
+
+    객체를 변수에 넣을수 있음 자바 스크립트 ;
+
+    펄스트 클래스 일급 함수 함수가 값으,로 사용된다 .
+    매개 변수 반환값 
+    funtion outer (){
+        var num1=10;
+       funtion inner (){
+        var num2=20;
+       var num3=num1+num2;
+       return num3;
+
+    }
+    var result =inner();
+    console.log(result);
+
+    }
+
+
+    외부 변수 레코드 참조 : 유효범위체인
+    outer EC(익스쿠션 콘텍스트)
+    체인이있음 오..
+
+    글로벌  EC (익스쿠션 콘텍스트)
+
+    함수 객체 
+
+    this 바인딩 - 윈도우의 주소값 
+    showInfo
+    
+
+    var person2={
+
+    }
+
+
+    }
+
+-->
+
+</body>
+<footer></footer>
+</html>

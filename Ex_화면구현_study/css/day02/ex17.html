@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>css 연습</title>
+    </head>
+   
+    <style>
+        ul{list-style: none;margin: 0;padding: 0;border: 1px solid #000;}
+
+        li:nth-of-type(3n+1){background: orange;flex-grow: 1}
+        li:nth-of-type(3n+2){background: green;flex-grow: 2}
+        li:nth-of-type(3n){background: blue;flex-grow: 1}
+
+        .flex{display: flex;height: 100px;}
+        li{width: 0px;flex-grow: 1;}
+    
+
+    </style> 
+
+    <body>
+       
+       <h1>justify-content: flex-wrap</h1>
+       <ul class ="flex">
+            <li>메뉴 1</li>
+            <li>매장</li>
+            <li>메뉴 3</li>
+          
+       </ul>
+
+    
+
+    </body>
+  
+</html>
+ 

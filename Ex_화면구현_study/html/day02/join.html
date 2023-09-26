@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입</title>
+
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <h1>회원가입</h1>
+        <form method="POST" action="join_ps.html">
+            <input type="hidden" name="mode" value="히든">
+            <dl>
+                <dt>가입구분</dt>
+                <dd>
+                <label><input type="radio" name ="user_type" value="일반 회원" checked>일반 회원
+              
+                </label>
+                <label>
+                    <input type="radio"name ="user_type" value ="사업자 회원 ">사업자 회원
+                </label>
+                </dd>
+            </dl>
+
+
+
+
+            <dl>
+                <dt>아이디</dt>
+                <dd>
+                    <input type="text" name="user_ID" value="user_01" required
+                    placeholder="알파벳,숫자,특수문자 사용">
+                </dd>
+            </dl>
+            
+            <dl>
+                <dt>비밀번호</dt>
+                <dd>
+                    <input type="password" name="user_pw"required placeholder="알파벳,숫자,특수문자 사용">
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>비밀번호 확인</dt>
+                <dd>
+                    <input type="password" name ="user_pw2"required>
+                </dd>
+            </dl>
+            <dl>
+                <dt>회원명</dt>
+                <dd>
+                    <input type="text" name ="user_name">
+                </dd>
+            </dl>
+            <dl>
+                <dt>이메일</dt> 
+                <dd>
+                    <input type="text" name ="user_EM">
+                    @
+                    <select name="domain" size="2" multiple>
+                        <option value="naver.com">naver.com</option>
+                        <option value="kakao.com">kakao.com</option>
+                        <option value="Daum.com">Daum.com</option>
+                        <option value="" selected>직접입력</option>
+
+
+                    </select>
+                </dd>
+
+            </dl>
+            <dl>
+                <dt>생년월일</dt>
+                <dd>
+                    <input type="date" name ="user_BT">
+                </dd>
+            </dl>
+            <dl>
+                <dt>폰번호</dt>
+                <dd>
+                    <input type="number" name ="user_PN" >
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>나이</dt>
+                <dd>
+                    <input type="range" name ="user_RANGE" min="14" max="60" >
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>컬러</dt>
+                <dd>
+                    <input type="color" name ="user_Color">
+                </dd>
+            </dl>
+
+
+            <dl>
+                <dt>자기소개</dt>
+                <dd>
+                    <textarea name ="user_ST" rows="10" cols="40"></textarea>
+                </dd>
+            </dl>
+
+         
+
+            <dl>
+                <dt>취미</dt>
+                <dd>
+                    <input type="checkbox" name="hobby" value ="축구" id ="hobby1">
+                    <label for ="hobby1">축구</label>
+
+                    <input type="checkbox"name="hobby" value ="농구"id="hobby2">
+                    <label for ="hobby2">농구</label>
+                    <input type="checkbox"name="hobby" value ="야구"id="hobby3">
+                    <label for ="hobby3">야구</label>
+                    <input type="checkbox"name="hobby" value ="독서"id="hobby4">
+                    <label for ="hobby4">독서</label>
+                    <input type="checkbox"name="hobby" value ="피아노"id="hobby5">
+                    <label for ="hobby5">피아노</label>
+                
+                
+                
+                </dd>
+            </dl>
+            <!--
+           <input type="submit" value="회원 가입" name="login">회원가입
+           <input type="reset">리셋이요
+            -->
+            <button type="submit">가입하기</button>
+            <button type="reset">지우기</button>
+
+
+        </form>
+         
+    </body>
+
+</html>

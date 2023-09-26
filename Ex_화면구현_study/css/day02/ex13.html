@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>css 연습</title>
+    </head>
+   
+    <style>
+        ul{list-style: none;margin: 0;padding: 0;border: 1px solid #000;}
+        .flex{display: flex;}
+        li:nth-of-type(1){background: orange;}
+        li:nth-of-type(2){background: green;}
+        li:nth-of-type(3){background: blue;}
+
+        .flex2{flex-direction:row-reverse;}
+        .flex3{flex-direction:column;}
+        .flex4{flex-direction:column-reverse;}
+
+
+
+    </style> 
+
+    <body>
+        <h1>flex0-drection: row</h1>
+       <ul class ="flex flex1">
+            <li>메뉴 1</li>
+            <li>메뉴 2</li>
+            <li>메뉴 3</li>
+
+       </ul>
+       <h1>flex0-drection: row-reverse</h1>
+       <ul class ="flex flex2">
+            <li>메뉴 1</li>
+            <li>메뉴 2</li>
+            <li>메뉴 3</li>
+       </ul>
+
+       <h1>flex0-drection: coloum</h1>
+       <ul class ="flex flex3">
+            <li>메뉴 1</li>
+            <li>메뉴 2</li>
+            <li>메뉴 3</li>
+       </ul>
+       <h1>flex0-drection: coloum-reverse</h1>
+       <ul class ="flex flex4">
+            <li>메뉴 1</li>
+            <li>메뉴 2</li>
+            <li>메뉴 3</li>
+       </ul>
+
+
+      
+
+    </body>
+  
+</html>
+ 

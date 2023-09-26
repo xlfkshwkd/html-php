@@ -1,0 +1,142 @@
+src/logo.png
+
+
+
+상대 경로 
+절대 경로
+
+
+width heghit
+
+너비 높이 둘중하나 기준으로 크기 변경 
+
+테이블 태그 
+표를 만들수 있는 태그 
+<table>
+<thead> : 컬럼 명 
+<tr>
+<th> 컬럼명 </th >
+</thead>
+< tbody>
+<tr>
+<td> 데이터 <td>
+</tr>
+
+
+
+td ,th
+ align ="left 좌 right 우 센터
+
+
+
+ valign 상 top하단 bottom가운데 middle
+
+
+
+ list 태그 
+ul 순서 표기가 없는 목록 
+
+ol 순서 표기가 있는 목록 기본값 1 변경 가능 
+
+
+style list - style -type 
+:disc 채워진 원 채워지지않은 cricle square 사각형 none없음 
+
+
+dt : 항목 명 
+dd : 항목 내용 
+
+문서   
+    문단
+        :P  줄 개행 너비 높이를 조절 가능 
+        외부 여백 :모든 방향 (상하 좌우 )적용 가능 
+        
+
+
+    문장
+        :a 줄 개행 X  너비의 끝에 도달하면 다음줄로 개행 너비와 높이 지정을 못함
+        외부 여백 좌우만 적용 가능 ㅇ
+
+class  와 
+대상을 선택할때 사용하는 속성 -복수개 선택 가능 
+id 속성 
+대상을 선택 단일 선택 
+iframes = src 주소 
+너비; 높이 ;
+frameboder 태두리 있음 없음 1,0
+scorling yes no auto 
+-name :창의 이름 
+-
+
+
+자바 스크립트 코드 : 자바 스크립트 해석 엔진이 해석하는 코드
+
+head 
+
+m.n-mk.net
+
+viewport :보이는 화면 
+-모바일 페이지 작업시 필수 요소 
+px 화소 단위 크기
+width 너비 기준  device-width 사이즈를 장비 사이즈 너비 기준으로 상대적을 변경 
+user-scalable:yes 확대 축소 가능 
+inital-scale :처음보이는 화면 배율 
+maximun -scale 최대 확대 가능 비율 
+minimun -scale 최대 축소 가능 배율
+
+
+Semantic 요소 
+의미를 가지고 있는 태그
+table 표 해석 그대로 
+form 등등 
+
+
+content  user-scalable =yes ,inital-scalable
+
+div 구성 나누는거...
+
+엔티티 공백을해도 하나밖에 안띄어짐 
+
+
+>  <
+10>5
+ &lt; :<
+  &gt; :>
+사용자가 원하는 서비스 
+
+action 처리할 경로/ 서버 경로 
+method get 방식과 post 방식 
+
+
+submit 제출 버튼 value = 버튼명
+reset 다시 입력 
+
+name 전송할 데이터의 항목명 
+value :입력 항목의 값 /text ,password 직접 입력하는값은 추가가 되는데 
+라디오랑 체크박스가 문제임 
+
+buttom 타입 일반 버튼 submit 제출버튼 
+reset 다시입력 버튼 
+
+
+<lable 태그안에 넣으면 택스트 눌러도 ok
+
+input type =채크 박스 라디오 id 이름 
+lable for 이름  >택스트<lable
+
+
+
+placeholer : 안내문구 
+
+hidden 입력용도 X 값만 전달하기 위한 목적 
+
+text area 요소 row cols 행 열 
+
+
+<select> 요소 선택 ?
+옵션태그 option value ="값" 
+
+selected 선택할때 한개만 노출 
+노출된 항목갯수 조절
+multiple
+
